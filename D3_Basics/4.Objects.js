@@ -23,3 +23,14 @@ console.log(car['Model']);
 //Keys and Values
 console.log(Object.keys(car))
 console.log(Object.values(car))
+
+
+//Prototype
+function Person(first, last, age, eyecolor) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eyecolor;
+  }
+  
+  Person.prototype.nationality = "English";

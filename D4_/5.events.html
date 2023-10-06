@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let name = "krish";
+        function displayName(){
+            document.getElementById('name').innerHTML = name;
+        }
+        function tpe(e){
+            document.getElementById('result').value = e.target.value;
+        }
+    </script>
+</head>
+<body>
+    <p>Hello Every One My Name Is : <span id="name"></span></p>
+    <br>
+    <button onclick="displayName()">Click Me To See My Name</button>
+    <br>
+    <textarea name="typ" id="" cols="30" rows="10" placeholder="Type Here" onkeyup="tpe(event)"></textarea>
+    <textarea name="result" id="result" cols="30" rows="10" placeholder="Result Here"></textarea>
+</body>
+</html>

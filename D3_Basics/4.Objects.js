@@ -42,3 +42,13 @@ let text = "";
 for (let x in person) {
   text += person[x];
 }
+
+
+// blank object
+var a ={};
+
+//field object
+var a ={
+    name:"krish",
+    age:19
+}

@@ -22,3 +22,4 @@ cars.shift()//remove the first element
 console.log(cars)
 cars.unshift("BMW")//add the first element
 console.log(cars)
+cars.splice(2,2) // second index thi 2 value jti rese pn second index nai jay

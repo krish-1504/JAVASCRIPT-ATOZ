@@ -49,6 +49,8 @@ var a ={};
 
 //field object
 var a ={
-    name:"krish",
-    age:19
+    name:"krish", // properties
+    age:19, // properties
+    fun : function krish(){}, // method!!
 }
+//properties vs method

@@ -1,0 +1,17 @@
+#bulb{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.turnon{
+    height: 30px;
+    width: 30px;
+    margin: 80px;
+}

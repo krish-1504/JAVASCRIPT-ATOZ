@@ -91,3 +91,16 @@ var [b1,c1,d1,e1] = a;
 // so b1 = 1 , c1 = 2 , d1 = 3 , e1 = undefined
 
 
+//6. try catch vs then catch
+//jo err hoga to bi vo code chhokdke nichhe vala code chlega try catch me
+
+console.log("hiii")
+try{
+    console.log(hey)
+}
+catch(err){
+    console.log(err);
+}
+console.log("hiii2");
+
+

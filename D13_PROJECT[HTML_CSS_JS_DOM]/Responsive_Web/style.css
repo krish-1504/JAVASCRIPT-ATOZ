@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+#main{
+    overflow: hidden;
+    position:relative;
+
+}
+
+@font-face{
+    font-family: a;
+    src:url(./assets/jost-variable.ttf);
+}
+@font-face{
+    font-family: b;
+    src:url(./assets/KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face{
+    font-family: c;
+    src:url(./assets/KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+
+#page1{
+    height:100vh;
+    width: 100vw;
+    background-color: white;
+    position: relative;
+}
+#page2{
+    height:100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+}
+
+#page1 video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+#page1 nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    height: 90px;
+    width: 100vw;
+}
+#page1>nav>img{
+    
+    width: 10vh;
+    margin-top: 0px;
+    margin-left: 2px;
+}
+
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #0b48ed;
+    color: white;
+    font-family: a;
+    font-size: 15px;
+}
+
+#btmdiv{
+    position: absolute;
+    /* top: 50%; */
+    /* left:15%;*/
+    bottom: 1%;
+    /* background-color: red; */
+}
+
+#btmdiv>h1{
+    font-family: a;
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 1;
+}

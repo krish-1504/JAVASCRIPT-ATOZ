@@ -1,4 +1,4 @@
-```
+
 // es5 - old
 // es6 - new
 
@@ -170,7 +170,7 @@ var a = {
     age:24
 };
 delete a.age; // it will delette age
-```
+
 
 
 
